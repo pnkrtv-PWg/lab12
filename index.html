@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Завдання JavaScrip 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <h1>1. Визначення гіпотенузи прямокутного трикутника</h1>
+  <p>Введіть катет а: 
+  <input type="text" id = "var_a"></p>
+  <p>Введіть катет b: 
+  <input type="text" id = "var_b"></p>
+
+  <p class = "buttons">
+    <button id = "calc" onclick="calc_click_gipotenysa()">Result</button>
+  </p>
+  <p>Гіпотенуза с = <span id = "var_c"></span>  </p>
+
+  <h1>2. Квадратне рівняння виду ax<sup>2</sup> + bx +c = 0</h1>
+  <p>Введіть значення а:
+  <input type="text" id = "var_a2"></p>
+  <p>Введіть значення b:
+  <input type="text" id = "var_b2"></p>
+  <p>Введіть значення c:
+  <input type="text" id = "var_c2"> </p>
+
+  <p class = "buttons">
+    <button id = "calc" onclick="calc_click_kvrv()">Result</button>
+  </p>
+  <p>Дискримінант = <span id = "var_d"></span> </p>
+  <p>Корені = <span id = "var_x"></span><span id = "var_x1"></span></br><span id = "var_x2"><span></p>
+
+  <h1>3. Табуляція функції y = sin(x) * cos(x)</H1>
+  <form>
+  <div>
+  <p>Введіть початкове значення х:
+  <input name="xp" type="text" value="" > </p>
+  <p>Введіть кінцеве значення х:
+  <input name="xk" type="text" value=""> </p>
+  <p>Введіть крок:
+  <input name="kr" type="text" value=""> </p>
+  <p class = "buttons"><input type="button" id = "calc" value="Result" onClick="calc_click_tabyl()">
+  </p>
+  <p class = "buttons"><select name='tab_list' size = "4">
+  </select></p>
+  </form>
+
+    <script src="script.js"></script>
+ 
+  </body>
+</html>
